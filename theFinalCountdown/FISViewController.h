@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DKCircleButton.h"
 
 @interface FISViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *labelTime;
+@property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
+
+- (IBAction)startTimer:(id)sender;
 
 @end
